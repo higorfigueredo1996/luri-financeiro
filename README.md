@@ -51,7 +51,7 @@ Se você tiver alguma outra pergunta ou precisar de mais informações, sinta-se
 
 Higor Figueredo — em transição para a área de IA e tecnologia.
 
-[LinkedIn](https://www.linkedin.com/in/seu-perfil) • [YouTube](https://www.youtube.com/@HigorFigueredo)
+[LinkedIn](https://www.linkedin.com/in/higor-figueredo-b031911a6/) • [YouTube](https://www.youtube.com/@higorfigueredo1996)
 
 ## Screenshots
 
