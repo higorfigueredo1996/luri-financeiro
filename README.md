@@ -52,3 +52,11 @@ Se você tiver alguma outra pergunta ou precisar de mais informações, sinta-se
 Higor Figueredo — em transição para a área de IA e tecnologia.
 
 [LinkedIn](https://www.linkedin.com/in/seu-perfil) • [YouTube](https://www.youtube.com/@HigorFigueredo)
+
+## Screenshots
+
+### Cenário no Make
+![Cenário no Make](Make%20-%20Luri%20Financeiro.png)
+
+### Resposta no Hoppscotch
+![Resposta no Hoppscotch](hoppscotch%20-%20Luri%20Financeiro.png)
