@@ -78,9 +78,9 @@ Webhook → Router → [3 rotas condicionais]
 
 ### Screenshots da conversa
 
-![Etapa inicio](Etapa_1_-_Inicio.png)
-![Etapa 1 Make](Etapa_1_(Make)_-_Inicio.png)
-![Etapa nome](Etapa_2_-_Nome.png)
-![Etapa 2 Make](Etapa_2_(Make)_-_Nome.png)
-![Etapa pergunta](Etapa_3_-_Pergunta.png)
-![Etapa 3 Make](Etapa_3_(Make)_-_Pergunta.png)
+![Etapa inicio](Etapa%201%20-%20Inicio.png)
+![Etapa 1 Make](Etapa%201%20(Make)%20-%20Inicio.png)
+![Etapa nome](Etapa%202%20-%20Nome.png)
+![Etapa 2 Make](Etapa%202%20(Make)%20-%20Nome.png)
+![Etapa pergunta](Etapa%203%20-%20Pergunta.png)
+![Etapa 3 Make](Etapa%203%20(Make)%20-%20Pergunta.png)
