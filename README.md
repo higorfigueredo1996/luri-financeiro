@@ -60,3 +60,27 @@ Higor Figueredo — em transição para a área de IA e tecnologia.
 
 ### Resposta no Hoppscotch
 ![Resposta no Hoppscotch](hoppscotch%20-%20Luri%20Financeiro.png)
+
+## Evolução: Fluxo Conversacional com Router
+
+Na segunda versão, o agente ganhou um fluxo conversacional com 3 etapas, simulando o comportamento do Microsoft Copilot Studio:
+
+Webhook → Router → [3 rotas condicionais]
+├── Etapa: inicio  → Webhook Response (pergunta o nome)
+├── Etapa: nome    → Webhook Response (pergunta sobre o pedido)
+└── Etapa: pergunta → Groq (extrai número) → Google Sheets → Groq (resposta) → Webhook Response
+
+### Como funciona
+
+1. **Etapa inicio** — usuário envia `{"etapa": "inicio", "mensagem": "pedido de compras"}` e a Luri se apresenta e pede o nome
+2. **Etapa nome** — usuário envia seu nome e a Luri agradece e pede a pergunta
+3. **Etapa pergunta** — usuário faz a pergunta, o primeiro Groq extrai o número do pedido, o Google Sheets busca os dados e o segundo Groq gera a resposta
+
+### Screenshots da conversa
+
+![Etapa inicio](Etapa_1_-_Inicio.png)
+![Etapa 1 Make](Etapa_1_(Make)_-_Inicio.png)
+![Etapa nome](Etapa_2_-_Nome.png)
+![Etapa 2 Make](Etapa_2_(Make)_-_Nome.png)
+![Etapa pergunta](Etapa_3_-_Pergunta.png)
+![Etapa 3 Make](Etapa_3_(Make)_-_Pergunta.png)
