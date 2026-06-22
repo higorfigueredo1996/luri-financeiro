@@ -84,3 +84,39 @@ Webhook → Router → [3 rotas condicionais]
 ![Etapa 2 Make](Etapa%202%20(Make)%20-%20Nome.png)
 ![Etapa pergunta](Etapa%203%20-%20Pergunta.png)
 ![Etapa 3 Make](Etapa%203%20(Make)%20-%20Pergunta.png)
+
+## Versão 3 — Fluxos Condicionais
+
+Na terceira versão, o agente ganhou dois novos fluxos condicionais:
+
+### Fluxo de Continuidade
+Após responder sobre um pedido, a Luri pergunta se o usuário tem mais dúvidas:
+- **Sim** → volta a perguntar sobre pedidos
+- **Não** → agradece e encerra a conversa
+
+### Fluxo de Requisição de Compra
+O usuário informa o valor estimado da compra e a Luri direciona:
+- **Acima de R$5.000** → orienta abrir no sistema de gestão da empresa
+- **Abaixo de R$5.000** → registra no Planner para a equipe de compras
+
+### Como testar
+
+**Continuidade:**
+```json
+{"etapa": "retorno", "mensagem": "sim"}
+{"etapa": "retorno", "mensagem": "não"}
+```
+
+**Requisição:**
+```json
+{"etapa": "requisicao", "mensagem": "8000"}
+{"etapa": "requisicao", "mensagem": "2000"}
+```
+
+### Screenshots
+
+![Cenário completo](Captura%20de%20Tela%20(1112).png)
+![Teste retorno sim](Captura%20de%20Tela%20(1113).png)
+![Teste retorno não](Captura%20de%20Tela%20(1114).png)
+![Teste requisição acima](Captura%20de%20Tela%20(1115).png)
+![Teste requisição abaixo](Captura%20de%20Tela%20(1116).png)
