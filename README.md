@@ -144,3 +144,23 @@ Na quarta versão, o fluxo de requisição de compra foi expandido com coleta de
 ![Captura 1148](Captura%20de%20Tela%20(1148).png)
 ![Captura 1149](Captura%20de%20Tela%20(1149).png)
 ![Captura 1150](Captura%20de%20Tela%20(1150).png)
+
+## Versão 5 — Integração com Google Tasks
+
+Na quinta e última versão, o agente ganhou integração com o Google Tasks para registrar automaticamente as requisições de compra.
+
+### Como funciona
+
+Quando o usuário informa que o valor da requisição é **abaixo de R$5.000**:
+
+1. O Groq gera o escopo técnico completo do produto ou serviço
+2. O Make cria automaticamente uma tarefa no Google Tasks na lista **Requisições de Compras**
+3. A tarefa recebe o escopo gerado como descrição
+4. O usuário recebe a confirmação de que a solicitação foi registrada
+
+### Screenshots
+
+![Captura 1159](Captura%20de%20Tela%20(1159).png)
+![Captura 1160](Captura%20de%20Tela%20(1160).png)
+![Captura 1161](Captura%20de%20Tela%20(1161).png)
+![Captura 1162](Captura%20de%20Tela%20(1162).png)
