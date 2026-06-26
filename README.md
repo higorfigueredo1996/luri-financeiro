@@ -120,3 +120,27 @@ O usuário informa o valor estimado da compra e a Luri direciona:
 ![Teste retorno não](Captura%20de%20Tela%20(1114).png)
 ![Teste requisição acima](Captura%20de%20Tela%20(1115).png)
 ![Teste requisição abaixo](Captura%20de%20Tela%20(1116).png)
+
+## Versão 4 — Geração de Escopo com IA
+
+Na quarta versão, o fluxo de requisição de compra foi expandido com coleta de dados e geração de escopo técnico com IA.
+
+### Fluxo completo de requisição
+
+1. **requisicao_inicio** — apresenta o agente e pede o nome
+2. **requisicao_email** — agradece pelo nome e pede o e-mail
+3. **requisicao_descricao** — solicita descrição detalhada do produto ou serviço
+4. **requisicao_escopo** — Groq gera o escopo técnico e direciona pelo valor:
+   - **Acima de R$5.000** → orienta abrir no sistema de gestão com o escopo gerado
+   - **Abaixo de R$5.000** → registra no Planner com o escopo gerado
+
+### Screenshots
+
+![Captura 1143](Captura%20de%20tela%20(1143).png)
+![Captura 1144](Captura%20de%20tela%20(1144).png)
+![Captura 1145](Captura%20de%20tela%20(1145).png)
+![Captura 1146](Captura%20de%20tela%20(1146).png)
+![Captura 1147](Captura%20de%20tela%20(1147).png)
+![Captura 1148](Captura%20de%20tela%20(1148).png)
+![Captura 1149](Captura%20de%20tela%20(1149).png)
+![Captura 1150](Captura%20de%20tela%20(1150).png)
