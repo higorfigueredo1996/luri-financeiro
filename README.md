@@ -138,7 +138,7 @@ Na quarta versão, o fluxo de requisição de compra foi expandido com coleta de
 
 ![Captura 1143](Captura%20de%20Tela%20(1143).png)
 ![Captura 1144](Captura%20de%20Tela%20(1144).png)
-![Captura 1145](Captura%20de%20Tela%20(1145).png)
+![Captura 1145](Captura%20de%20Tela%20(1145a).png)
 ![Captura 1146](Captura%20de%20Tela%20(1146).png)
 ![Captura 1147](Captura%20de%20Tela%20(1147).png)
 ![Captura 1148](Captura%20de%20Tela%20(1148).png)
