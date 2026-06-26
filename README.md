@@ -136,11 +136,11 @@ Na quarta versão, o fluxo de requisição de compra foi expandido com coleta de
 
 ### Screenshots
 
-![Captura 1143](Captura%20de%20tela%20(1143).png)
-![Captura 1144](Captura%20de%20tela%20(1144).png)
-![Captura 1145](Captura%20de%20tela%20(1145).png)
-![Captura 1146](Captura%20de%20tela%20(1146).png)
-![Captura 1147](Captura%20de%20tela%20(1147).png)
-![Captura 1148](Captura%20de%20tela%20(1148).png)
-![Captura 1149](Captura%20de%20tela%20(1149).png)
-![Captura 1150](Captura%20de%20tela%20(1150).png)
+![Captura 1143](Captura%20de%20Tela%20(1143).png)
+![Captura 1144](Captura%20de%20Tela%20(1144).png)
+![Captura 1145](Captura%20de%20Tela%20(1145).png)
+![Captura 1146](Captura%20de%20Tela%20(1146).png)
+![Captura 1147](Captura%20de%20Tela%20(1147).png)
+![Captura 1148](Captura%20de%20Tela%20(1148).png)
+![Captura 1149](Captura%20de%20Tela%20(1149).png)
+![Captura 1150](Captura%20de%20Tela%20(1150).png)
